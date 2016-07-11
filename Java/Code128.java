@@ -1,5 +1,5 @@
 /**
- * @name
+ * @name Code128
  * @author tcari
  * @date 11. jul. 2016
  * 
