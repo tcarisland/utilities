@@ -5,8 +5,6 @@
  * 
  */
 
-package rammexperten;
-
 public class Code128 {
 	private String code128B_table[] = {
 			" ","!","\"","#","$"," %","&","'","(",")","*","+",",","-",".","/",
