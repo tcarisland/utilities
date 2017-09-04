@@ -3,6 +3,14 @@ import java.io.*;
 
 public class HashMapMaker {
 
+    /**
+     * A simple program that creates a HashMap<String, String> from a csv file or any text file with fields separated by whitespace.
+     * @name HashMapMaker
+     * @author tcarisland
+     * @date 11. jul. 2016
+     * 
+     */
+    
     public static void main(String args[]) {
 	try {
 	    Scanner in = new Scanner(new File(args[0]));
