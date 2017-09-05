@@ -7,8 +7,7 @@ public class Cols {
      * This program takes a csv file separated by whitespace and replaces the first with the second column.
      * @name Cols
      * @author tcarisland
-     * @date 6.9.2017
-     * 
+     * @date 6.sep.2017
      */
 
     public static void main(String args[]) {

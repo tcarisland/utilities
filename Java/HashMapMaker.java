@@ -7,8 +7,7 @@ public class HashMapMaker {
      * A simple program that creates a HashMap from a file with fields separated by whitespace.
      * @name HashMapMaker
      * @author tcarisland
-     * @date 11. jul. 2016
-     * 
+     * @date 5.sep.2017
      */
     
     public static void main(String args[]) {
