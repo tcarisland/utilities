@@ -3,6 +3,14 @@ import java.io.*;
 
 public class Cols {
 
+    /**
+     * This program takes a csv file separated by whitespace and replaces the first with the second column.
+     * @name Cols
+     * @author tcarisland
+     * @date 6.9.2017
+     * 
+     */
+
     public static void main(String args[]) {
 	try {
 	    Scanner in = new Scanner(new File(args[0]));
