@@ -10,6 +10,8 @@
 
 if [ $# == "1" ] ; then
     output="${1%.*}_temp.${1##*.}";
+else
+    output=$2;
 fi
 
 rm -f $output && touch $output;
