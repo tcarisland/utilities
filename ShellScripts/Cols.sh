@@ -1,7 +1,12 @@
 #!/bin/bash -x
 
+#Name: cols
+#Author: Thor Arisland
 #This program replaces the first two columns with each other in a csv file separated by a single whitespace.
-#Name: Thor Arisland
+#Usage: ./Cols.sh [input file] [output file]
+#Output file is optional.
+#If no output file is provided, the input file will be overwritten after the columns have been replaced.
+
 
 if [ $# == "1" ] ; then
     output="${1%.*}_temp.${1##*.}";
